@@ -1,135 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Bootstrap 4 Navbar with Logo Image</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap');
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap 4 Navbar with Logo Image</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aldrich" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  body{
-      margin: 0;
-      background: linear-gradient(270deg, #63C8DE -1.04%, #252B42 100%);
-
-    }
-    nav{
-      font-family: 'Aldrich', sans-serif;
-      margin-top: 10px;
-    }
-
-    .logo{
-      margin-top: -20px;
-    }
-    #home{
-      margin-top: 200px;
-      text-align: center;
-    }
-    .ht-main{
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 800;
-      font-size: 60px;
-      line-height: 80px;
-      letter-spacing: 0.2px;
-      color: white;
-      margin-top: 30px;
+</head>
 
 
-    }
-    .ht-sub{
-      color: white;
-      margin-top: -10px;
-    }
-    .signup-button{
-      background: #3A858C;
-      border-radius: 37px;
-      font-family: Montserrat;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 22px;
-      text-align: center;
-      width: 158px;
-      height: 52px;
-      left: 0px;
-      top: 280px;
-      color: white;
-      border: 1px #3A858C;
-    }
-
-    @media screen and (max-width: 600px) {
-      #home{
-        margin-top: 70px;
-      }
-      .ht-main{
-        font-size: 40px;
-        line-height: 60px;
-
-      }
-      .ht-sub{
-        margin-top: 10px;
-      }
-    }
-
-
-
-
-    </style>
-
-
-    <body>
-      <header>
+<body>
+    <header>
         <div class="topnav">
 
-          <nav class="navbar navbar-fixed-top navbar-expand-md navbar-dark">
-            <a href="#home" class="navbar-brand" >
-                <img class="logo" src="logo.png" height='40'/>
-              INDUSTRY 4.0
-              </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
+            <nav class="navbar navbar-fixed-top navbar-expand-md navbar-dark">
+                <a href="#home" class="navbar-brand">
+                    <img class="logo" src="logo.png" height='40' /> INDUSTRY 4.0
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ml-auto">
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#media" class="nav-item nav-link">Media</a>
-                <a href="#faq" class="nav-item nav-link">FAQ</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#media" class="nav-item nav-link">Media</a>
+                        <a href="#faq" class="nav-item nav-link">FAQ</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </nav>
-  </div>
-
-
-
 
 
     </header>
-
+   
     <section id="home">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-          <div class="home-text">
-            <p class="ht-main">Are you ready for the I4 Challenge?</p>
-            <p class="ht-sub">Data driven high school competition run by students at
-              the University of Waterloo</p>
-          </div>
-          <button class="signup-button">SIGN UP NOW</button>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="home-text">
+                        <img class="front-page-logo" src="logo.png">
+                        <p class="ht-main">Are you ready for the I4 Challenge?</p>
+                        <p class="ht-sub">Data driven high school competition run by students at the University of Waterloo</p>
+                    </div>
+                    <button class="signup-button">SIGN UP NOW</button>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="about">
+        <!-- Video -->
+        <div class="container mt-5 mb-5">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U3w0NjYbEIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- End of Video -->
+
+         <!-- ABOUT US -->
+    <div class="container" id="body_change">
+        <div class="row justify-content-center p-4">
+            <h2 class="display-4 text-center p-4" id="headerBF">About Us</h2>
+        </div>
+    </div>
+    <div class="container shadow p-5 mb-5" id="body_change">
+        <div class="row align-items-center">
+            <div class="col-sm">
+                <p class="lead">In the Winter 2017 term, the 2021 Class of Management Engineering students started the formation of the Industry 4.0 Team. The team is advised by Professor Kenneth N. McKay, Department of Management Sciences, Faculty of Engineering, University
+                    of Waterloo.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- END OF ABOUT US -->
 
     </section>
 
@@ -137,14 +90,76 @@
     </section>
 
     <section id="faq">
+        <!--About the I4 Challenge-->
+        <div class="container mt-5" id="about">
+            <div class="row justify-content-center align-items-center">
+                <h2 class="text-center p-5" id="borders">ABOUT THE I4 CHALLENGE</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg">
+                    <h4 class="p-1" id="fontColour">WHAT IS IT?</h4>
+                    <p class="lead text pt-3 pb-3">The i4 Challenge is a high school level data-driven competition run by students at the University of Waterloo. The name comes from what is known as the fourth industrial revolution, involving the computerization of manufacturing and increase
+                        in big data and analytics.</p>
+
+                    <h4 class="p-1" id="fontColour">WHO CAN PARTICIPATE?</h4>
+                    <p class="lead text pt-3 pb-3">This competition will allow grade eleven and grade twelve students to learn about management engineering concepts including data analytics, operations research and critical thinking.</p>
+
+                    <h4 class="p-1" id="fontColour">WHEN IS IT?</h4>
+                    <p class="lead text pt-3 pb-3">The first competition will run on February 7, 2020 from 8:00am - 4:00pm via our online competition platform.</p>
+
+                    <h4 class="p-1" id="fontColour">WHAT WILL I LEARN?</h4>
+                    <p class="lead text pt-3 pb-3">Through our one-day competition, you will be tested and improve on your analytical, time management and optimization skills!</p>
+
+                    <h4 class="p-1" id="fontColour">WHAT CAN I EXPECT?</h4>
+                    <p class="lead text pt-3 pb-3">This year’s day-long competition will take teams of 3-5 students through part of a manufacturing process, analyzing a section of the production line. Teams will be provided visuals (video, blueprint) and data from the line and will be
+                        asked to use an engineering approach to analyze the process, layout, and efficiency. They will then prepare a short report with their analysis and a PowerPoint presentation with their recommendations for how the plant management can
+                        improve the area.
+                        <br><br>The competition is formatted such that there will be several milestones released on our competition platform throughout the day of the competition. Student teams will work on the milestone deliverables and submit them through
+                        our online competition platform by the specified deadlines. There will also be advisor check-ins twice during the competition, once in the morning and once in the afternoon.</p>
+
+                </div>
+            </div>
+        </div>
+        <!--End of About the I4 Challenge-->
     </section>
 
+
+    
     <section id="contact">
+         <!-- Footer -->
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row p-4 justify-content-center">
+                <div class="col-sm align-self-center">
+                    <ul class="list-inline">
+                        <a href="mailto:industry4team@uwaterloo.ca" class="list-inline-item">CONTACT US</a>
+                        <a href="https://suvaena.typeform.com/to/kK5xfJ" class="list-inline-item" target="_blank">SIGN UP</a>
+                    </ul>
+                    <img src="images/Logo (2).png" class="img-fluid">
+                </div>
+                <div class="col-sm align-self-center">
+
+                    <ul class="social-icons text-center">
+                        <li>
+                            <a href="https://www.facebook.com/Industry4.0Team/" class="social-icon"> <i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/industry-4-0-design-team/" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@industry4team" class="social-icon"> <i class="fa fa-medium"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
     </section>
 
+</body>
 
-
-
-    </body>
-    </html>
-
+</html>
