@@ -3,14 +3,15 @@
 
  /*Navbar*/
 
+
   body{
       margin: 0;
       background: linear-gradient(270deg, #63C8DE -1.04%, #252B42 100%);
 
     }
     nav{
-      font-family: 'Aldrich', sans-serif;
-      background-color: #252B42;
+      font-family: 'Montserrat', sans-serif;
+      background-color:  #252B42;
       border-top: 5px solid #252B42;
 
     }
@@ -18,28 +19,36 @@
     .logo{
       margin-top: -20px;
     }
+
     #home{
       margin-top: 200px;
-      text-align: center;
+      text-align: left;
+
+
+
+
     }
     .ht-main{
       font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 800;
       font-size: 60px;
-      line-height: 80px;
+      line-height: 75px;
       letter-spacing: 0.2px;
       color: white;
-      margin-top: 30px;
+
+
 
 
     }
     .ht-sub{
       color: white;
-      margin-top: -10px;
+      margin-top: 10px;
+
     }
     .signup-button{
-      background: #3A858C;
+      background: #252B42;
+
       border-radius: 37px;
       font-family: Montserrat;
       font-style: normal;
@@ -56,16 +65,20 @@
     }
 
     /*Mobile Design */
-    @media screen and (max-width: 600px) {
+
+    @media screen and (max-width: 760px) {
       #home{
         margin-top: 150px;
+        text-align: center;
       }
+
       .ht-main{
         font-size: 40px;
         line-height: 60px;
-
       }
       .ht-sub{
         margin-top: 10px;
       }
+
+
     }
