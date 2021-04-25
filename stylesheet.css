@@ -94,9 +94,18 @@ h5 span {
   .ht-sub {
     margin-top: 10px;
   }
-
-  #media {
-    margin-left: 50px;
-    margin-right: 50px;
+  .carousel-nav-icon {
+    height: 28px;
+    width: 28px;
+  }
+  h5 span {
+    background-color: white;
+    color: #252b42;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
   }
 }
