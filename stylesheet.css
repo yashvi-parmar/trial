@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap");
 
-/*General*/
-h2 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}
 
 /*Navbar*/
 
@@ -148,4 +142,11 @@ iframe {
   transform:scale(0.75);
   position: absolute;
   left: -400px;
+}
+
+/*General*/
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
