@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap");
 
-
 /*Navbar*/
 
 body {
@@ -53,16 +52,16 @@ nav {
   color: white;
   border: 1px #3a858c;
 }
+/*About*/
 
 /*Carousel*/
 .carousel-nav-icon {
   height: 48px;
   width: 48px;
 }
+
 h5 span {
-  background-color: white;
-  color: #252b42;
-  font-weight: 500;
+  font-weight: 300;
   font-family: Montserrat;
 }
 .media-contain {
@@ -79,6 +78,10 @@ h5 span {
 .lead {
   font-style: italic;
   font-weight: 400;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.95);
 }
 
 /*Mobile Design */
@@ -126,7 +129,7 @@ h5 span {
   background: rgba(192, 249, 255, 0.141);
 }
 
-.about-body{
+.about-body {
   font-size: 18px;
   padding-top: 15px;
   color: white;
@@ -136,10 +139,10 @@ iframe {
   width: 1108px;
   height: 710px;
   /* apply the transform */
-  -webkit-transform:scale(0.75);
-  -moz-transform:scale(0.75);
-  -o-transform:scale(0.75);
-  transform:scale(0.75);
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
   position: absolute;
   left: -400px;
 }
