@@ -82,8 +82,21 @@ h5 span {
 
 .carousel-caption {
   background: rgba(0, 0, 0, 0.95);
+  top: auto;
+  bottom: 0;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
-
+/*Minimize Screen - should clean up this code */
+@media screen and (max-width: 1000px) {
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.95);
+    top: auto;
+    bottom: 0;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
 /*Mobile Design */
 
 @media screen and (max-width: 760px) {
@@ -104,14 +117,17 @@ h5 span {
     width: 28px;
   }
   h5 span {
-    background-color: white;
-    color: #252b42;
-    font-weight: 500;
     font-family: Montserrat;
     font-size: 12px;
     justify-content: center;
     align-items: center;
-    top: 10px;
+  }
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.95);
+    top: auto;
+    bottom: 0;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 }
 
