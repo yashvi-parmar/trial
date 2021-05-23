@@ -61,9 +61,11 @@ nav {
 }
 
 h5 span {
-  font-weight: 400;
+  font-weight: 500;
   font-family: Montserrat;
   text-align: justify;
+  font-size: 16px;
+  margin: 40px;
 }
 .media-contain {
   margin-top: 100px;
