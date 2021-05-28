@@ -7,6 +7,7 @@
   body{
       margin: 0;
       background: linear-gradient(270deg, #63C8DE -1.04%, #252B42 100%);
+      overflow: scroll;
 
     }
     nav{
@@ -36,11 +37,36 @@
       line-height: 75px;
       letter-spacing: 0.2px;
       color: white;
-
-
-
-
     }
+
+    .FAQ-subheading{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 75px;
+      letter-spacing: 0.2px;
+      color: white;
+      padding-top: 5%;
+    }
+
+    .FAQ-box {
+      border-radius: 10%;
+      background: #ffffff;
+      padding: 5%;
+      margin: 10%;
+      border-collapse: separate;
+      width: 20%;
+      word-wrap: break-word;
+    }
+
+    .FAQ-table {
+      width:100%;
+      table-layout: fixed; 
+      border-spacing: 17px; 
+      border-collapse: separate;
+    }
+
     .ht-sub{
       color: white;
       margin-top: 10px;
