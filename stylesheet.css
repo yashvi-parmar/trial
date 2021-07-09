@@ -367,9 +367,13 @@ footer {
 /*End of Footer*/
 
 /*faq*/
-#headerBF {
-  border-top: 2px solid rgb(94, 73, 129);
-  border-bottom: 2px solid rgb(94, 73, 129);
-  color: #8250a7;
-  border-radius: 18px;
+.FAQ-subheading {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: white;
+  padding-top: 5%;
 }
