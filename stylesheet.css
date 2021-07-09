@@ -177,10 +177,7 @@ body {
   .ht-sub {
     margin-top: 10px;
   }
-  .carousel-nav-icon {
-    height: 28px;
-    width: 28px;
-  }
+
   h5 span {
     background-color: white;
     color: #252b42;
@@ -380,3 +377,4 @@ footer {
 #title {
   flex-direction: column;
 }
+
