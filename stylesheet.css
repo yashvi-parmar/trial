@@ -12,6 +12,7 @@
   z-index: 1;
   padding-left: 10px;
   padding-bottom: 10px;
+  flex-direction: row;
 }
 
 .sidenav {
@@ -32,13 +33,13 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 22px;
-  color: #63c8de;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #fff;
+  color: #63c8de;
 }
 
 .sidenav .closebtn {
@@ -138,29 +139,27 @@ body {
   border: 1px #3a858c;
 }
 
-/*Carousel*/
-.carousel-nav-icon {
-  height: 48px;
-  width: 48px;
-}
-h5 span {
-  background-color: white;
+.card-contain {
   color: #252b42;
-  font-weight: 500;
-  font-family: Montserrat;
+  text-align: center;
 }
-.media-contain {
-  color: white;
-  margin-left: 100px;
-  margin-right: 100px;
+.card-body {
+  font-family: "Montserrat", sans-serif;
+  color: #252b42;
 }
+
 .media-head {
   font-weight: 600;
   font-family: Montserrat;
   text-align: center;
+  color: white;
+  margin-top: 20px;
 }
 #media {
-  padding-top: 5%;
+  padding-top: 7%;
+  margin: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 /*Mobile Design */
@@ -282,23 +281,102 @@ h2 {
   color: white;
 
   margin-left: 5px;
-
 }
 .navbar-brand:hover {
   color: white;
 }
 
-.logo {
-  margin-top: -20px;
-  margin-left: 5px;
-}
-
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
+    text-decoration: "none";
   }
   .overlay .closebtn {
     top: 15px;
     right: 35px;
   }
+}
+footer {
+  background-color: #252b42;
+  color: white;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+#socials {
+  padding-top: 5%;
+}
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 20px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.sub-footer {
+  font-family: Montserrat;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.logo {
+  margin-top: 50px;
+}
+.title-footer {
+  font-family: Montserrat;
+  font-size: 30px;
+}
+#title {
+  flex-direction: column;
 }
