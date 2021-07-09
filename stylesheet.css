@@ -280,6 +280,9 @@ h2 {
   font-family: "Montserrat", sans-serif;
   margin-top: 15px;
   color: white;
+
+  margin-left: 5px;
+
 }
 .navbar-brand:hover {
   color: white;
