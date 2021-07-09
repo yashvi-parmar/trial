@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap");
+
+/*Navbar*/
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #252b42;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  z-index: 1;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #252b42;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #63c8de;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.navbar-brand {
+  color: white;
+  color: inherit;
+  font-size: 26px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+body {
+  margin: 0;
+  background: linear-gradient(270deg, #63c8de -1.04%, #252b42 100%);
+}
+
+#home {
+  padding-top: 15%;
+  text-align: left;
+}
+.ht-main {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+/*FAQs*/
+.FAQ-subheading {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: white;
+  padding-top: 5%;
+}
+
+.FAQ-box {
+  border-radius: 10%;
+  background: #ffffff;
+  padding: 5%;
+  margin: 10%;
+  border-collapse: separate;
+  width: 20%;
+  word-wrap: break-word;
+}
+
+.FAQ-table {
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 17px;
+  border-collapse: separate;
+}
+
+.ht-sub {
+  color: white;
+  margin-top: 10px;
+}
+
+.signup-button {
+  background: #252b42;
+
+  border-radius: 37px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  width: 158px;
+  height: 52px;
+  left: 0px;
+  top: 280px;
+  color: white;
+  border: 1px #3a858c;
+}
+
+/*Carousel*/
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+h5 span {
+  background-color: white;
+  color: #252b42;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+.media-contain {
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.media-head {
+  font-weight: 600;
+  font-family: Montserrat;
+  text-align: center;
+}
+#media {
+  padding-top: 5%;
+}
+
+/*Mobile Design */
+
+@media screen and (max-width: 760px) {
+  #home {
+    padding: 5%;
+    text-align: center;
+  }
+
+  .ht-main {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .ht-sub {
+    margin-top: 10px;
+  }
+  .carousel-nav-icon {
+    height: 28px;
+    width: 28px;
+  }
+  h5 span {
+    background-color: white;
+    color: #252b42;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+  }
+}
+
+.box {
+  max-width: 1300px;
+  position: relative;
+  margin: 100px;
+  margin-top: 120px;
+  margin-bottom: 0px;
+
+  background: rgb(164, 232, 255);
+  padding: 30px;
+  box-shadow: 0px 10px 30px;
+  display: block;
+  background: rgba(192, 249, 255, 0.141);
+}
+
+.about-body {
+  font-size: 18px;
+  color: white;
+}
+#about {
+  padding-top: 5%;
+}
+
+iframe {
+  width: 1108px;
+  height: 710px;
+  /* apply the transform */
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+  position: absolute;
+  left: -400px;
+}
+
+/*General*/
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(37, 42, 65, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: rgb(164, 232, 255);
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -20px;
+  right: 3px;
+  font-size: 60px;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+  color: white;
+}
+.navbar-brand:hover {
+  color: white;
+}
+
+.logo {
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    top: 15px;
+    right: 35px;
+  }
+}
