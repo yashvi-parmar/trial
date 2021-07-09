@@ -75,7 +75,7 @@ body {
 
 #home {
   padding-top: 10%;
-  text-align: center;
+  text-align: left;
 }
 .ht-main {
   font-family: "Montserrat", sans-serif;
@@ -163,7 +163,11 @@ body {
 }
 
 /*Mobile Design */
-
+@media screen and (mac-width: 600px) {
+  #main {
+    width: 400px;
+  }
+}
 @media screen and (max-width: 760px) {
   #home {
     padding: 5%;
@@ -177,10 +181,7 @@ body {
   .ht-sub {
     margin-top: 10px;
   }
-  .carousel-nav-icon {
-    height: 28px;
-    width: 28px;
-  }
+
   h5 span {
     background-color: white;
     color: #252b42;
