@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap");
 
-/*Navbar*/
+/* Start of Navbar*/
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -49,17 +49,17 @@
   font-size: 40px;
   margin-left: 50px;
 }
+
 .navbar-brand {
-  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
   color: inherit;
   font-size: 26px;
+  margin-left: 5px;
 }
-
-#main {
-  transition: margin-left 0.5s;
-  padding: 16px;
+.navbar-brand:hover {
+  color: white;
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -68,10 +68,20 @@
     font-size: 18px;
   }
 }
+/*End of Navbar*/
+
+/*Main container - IMPORTANT */
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
 body {
   margin: 0;
   background: linear-gradient(270deg, #63c8de -1.04%, #252b42 100%);
 }
+
+/*Start of Home */
 
 #home {
   padding-top: 10%;
@@ -86,34 +96,8 @@ body {
   letter-spacing: 0.2px;
   color: white;
 }
-
-/*FAQs*/
-.FAQ-subheading {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 75px;
-  letter-spacing: 0.2px;
-  color: white;
-  padding-top: 5%;
-}
-
-.FAQ-box {
-  border-radius: 10%;
-  background: #ffffff;
-  padding: 5%;
-  margin: 10%;
-  border-collapse: separate;
-  width: 20%;
-  word-wrap: break-word;
-}
-
-.FAQ-table {
-  width: 100%;
-  table-layout: fixed;
-  border-spacing: 17px;
-  border-collapse: separate;
+#home-image {
+  margin-top: -80px;
 }
 
 .ht-sub {
@@ -138,32 +122,6 @@ body {
   color: white;
   border: 1px #3a858c;
 }
-
-.card-contain {
-  color: #252b42;
-  text-align: center;
-}
-.card-body {
-  font-family: "Montserrat", sans-serif;
-  color: #252b42;
-}
-
-.media-head {
-  font-weight: 600;
-  font-family: Montserrat;
-  text-align: center;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-#media {
-  padding-top: 7%;
-  margin: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-/*Mobile Design */
 
 @media screen and (max-width: 760px) {
   #home {
@@ -190,6 +148,37 @@ body {
     top: 10px;
   }
 }
+
+/*End of Home */
+
+/*Start of Media */
+
+.card-contain {
+  color: #252b42;
+  text-align: center;
+}
+.card-body {
+  font-family: "Montserrat", sans-serif;
+  color: #252b42;
+}
+
+.media-head {
+  font-weight: 600;
+  font-family: Montserrat;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#media {
+  padding-top: 7%;
+  margin: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+/*End of Media */
+
+/*Start of About */
 
 .box {
   max-width: 1300px;
@@ -224,6 +213,8 @@ iframe {
   position: absolute;
   left: -400px;
 }
+
+/*End of About */
 
 /*General*/
 h2 {
@@ -273,16 +264,6 @@ h2 {
   right: 3px;
   font-size: 60px;
 }
-.navbar-brand {
-  font-family: "Montserrat", sans-serif;
-  margin-top: 15px;
-  color: white;
-
-  margin-left: 5px;
-}
-.navbar-brand:hover {
-  color: white;
-}
 
 @media screen and (max-height: 450px) {
   .overlay a {
@@ -294,6 +275,10 @@ h2 {
     right: 35px;
   }
 }
+
+/*End of General */
+
+/*Start of Footer */
 footer {
   background-color: #252b42;
   color: white;
@@ -378,6 +363,8 @@ footer {
 #title {
   flex-direction: column;
 }
+
+/*End of Footer*/
 
 /*faq*/
 #headerBF {
