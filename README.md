@@ -5,3 +5,5 @@ This is NOT the repository we're building our website on. This is just a sample 
 This repository will be used to create the mock website, and if all is well, we can copy the contents into the main 2023 folder.
 
 This is the edited line
+
+Illustrations Credits: https://undraw.co/
