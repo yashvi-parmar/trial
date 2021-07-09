@@ -57,7 +57,6 @@
   font-size: 26px;
   margin-left: 5px;
 }
-
 .navbar-brand:hover {
   color: white;
 }
@@ -78,12 +77,14 @@
   transition: margin-left 0.5s;
   padding: 16px;
 }
+
 /*Mobile Design */
 @media screen and (mac-width: 600px) {
   #main {
     width: 400px;
   }
 }
+
 
 body {
   margin: 0;
@@ -132,6 +133,7 @@ body {
   border: 1px #3a858c;
 }
 
+
 .card-contain {
   color: #252b42;
   text-align: center;
@@ -155,6 +157,7 @@ body {
   margin-right: 50px;
   margin-left: 50px;
 }
+
 
 @media screen and (max-width: 760px) {
   #home {
@@ -214,14 +217,14 @@ body {
 /*Start of About */
 
 .box {
-  width: 80%;
+  max-width: 1300px;
   position: relative;
-  margin: 0 auto;
+  margin: 100px;
   margin-top: 120px;
   margin-bottom: 0px;
 
   background: rgb(164, 232, 255);
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0px 10px 30px;
   display: block;
   background: rgba(192, 249, 255, 0.141);
@@ -421,3 +424,4 @@ footer {
   color: white;
   padding-top: 5%;
 }
+
