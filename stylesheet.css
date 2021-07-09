@@ -60,6 +60,7 @@
 .navbar-brand:hover {
   color: white;
 }
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -71,10 +72,19 @@
 /*End of Navbar*/
 
 /*Main container - IMPORTANT */
+
 #main {
   transition: margin-left 0.5s;
   padding: 16px;
 }
+
+/*Mobile Design */
+@media screen and (mac-width: 600px) {
+  #main {
+    width: 400px;
+  }
+}
+
 
 body {
   margin: 0;
@@ -122,6 +132,32 @@ body {
   color: white;
   border: 1px #3a858c;
 }
+
+
+.card-contain {
+  color: #252b42;
+  text-align: center;
+}
+.card-body {
+  font-family: "Montserrat", sans-serif;
+  color: #252b42;
+}
+
+.media-head {
+  font-weight: 600;
+  font-family: Montserrat;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#media {
+  padding-top: 7%;
+  margin: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
 
 @media screen and (max-width: 760px) {
   #home {
@@ -367,6 +403,17 @@ footer {
 /*End of Footer*/
 
 /*faq*/
+#faq {
+  font-family: "Montserrat", sans-serif;
+  color: #252b42;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+#accord {
+  background-color: #252b42;
+  color: #fff;
+}
+
 .FAQ-subheading {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
