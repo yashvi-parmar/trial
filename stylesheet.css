@@ -154,6 +154,7 @@ body {
   text-align: center;
   color: white;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 #media {
   padding-top: 7%;
@@ -163,11 +164,7 @@ body {
 }
 
 /*Mobile Design */
-@media screen and (mac-width: 600px) {
-  #main {
-    width: 400px;
-  }
-}
+
 @media screen and (max-width: 760px) {
   #home {
     padding: 5%;
@@ -380,4 +377,12 @@ footer {
 }
 #title {
   flex-direction: column;
+}
+
+/*faq*/
+#headerBF {
+  border-top: 2px solid rgb(94, 73, 129);
+  border-bottom: 2px solid rgb(94, 73, 129);
+  color: #8250a7;
+  border-radius: 18px;
 }
