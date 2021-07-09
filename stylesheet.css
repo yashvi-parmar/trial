@@ -367,6 +367,17 @@ footer {
 /*End of Footer*/
 
 /*faq*/
+#faq {
+  font-family: "Montserrat", sans-serif;
+  color: #252b42;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+#accord {
+  background-color: #252b42;
+  color: #fff;
+}
+
 .FAQ-subheading {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
