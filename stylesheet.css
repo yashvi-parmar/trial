@@ -5,6 +5,7 @@
 .sticky {
   position: -webkit-sticky;
   position: sticky;
+  flex-direction: row;
   top: 0;
   background-color: #252b42;
   color: white;
@@ -13,6 +14,10 @@
   padding-left: 10px;
   padding-bottom: 10px;
   flex-direction: row;
+}
+#countdown {
+  float: right;
+  margin: 20px;
 }
 
 .sidenav {
