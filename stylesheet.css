@@ -141,8 +141,8 @@ body {
 }
 .anchor {
   display: block;
-  height: 115px;
-  margin-top: -115px;
+  height: 515px;
+  margin-top: -515px;
 }
 
 .card-contain {
@@ -173,7 +173,7 @@ body {
   #home {
     padding: 5%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 90px;
   }
 
   .ht-main {
@@ -441,7 +441,8 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: #252b42;
   margin: 10px;
-  padding: 5%;
+  padding: 3%;
+  margin-top: -30px;
 }
 #accord {
   background-color: #252b42;
