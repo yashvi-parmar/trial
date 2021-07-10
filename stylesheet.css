@@ -37,14 +37,17 @@
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   display: block;
+  letter-spacing: 1px;
+  font-weight: 500;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
   color: #63c8de;
+  text-decoration: none;
 }
 
 .sidenav .closebtn {
@@ -89,7 +92,6 @@
     width: 400px;
   }
 }
-
 
 body {
   margin: 0;
@@ -137,7 +139,11 @@ body {
   color: white;
   border: 1px #3a858c;
 }
-
+.anchor {
+  display: block;
+  height: 115px;
+  margin-top: -115px;
+}
 
 .card-contain {
   color: #252b42;
@@ -158,16 +164,16 @@ body {
 }
 #media {
   padding-top: 7%;
-  margin: 10px;
+  margin-top: -50px;
   margin-right: 50px;
   margin-left: 50px;
 }
-
 
 @media screen and (max-width: 760px) {
   #home {
     padding: 5%;
     text-align: center;
+    margin-top: 50px;
   }
 
   .ht-main {
@@ -176,6 +182,9 @@ body {
   }
   .ht-sub {
     margin-top: 10px;
+  }
+  #countdown {
+    display: none;
   }
 
   h5 span {
@@ -187,6 +196,26 @@ body {
     justify-content: center;
     align-items: center;
     top: 10px;
+  }
+  .anchor {
+    display: block;
+    height: 115px;
+    margin-top: -115px;
+  }
+  .anchor1 {
+    display: block;
+    height: 115px;
+    margin-top: -115px;
+  }
+  .anchor2 {
+    display: block;
+    height: 925px;
+    margin-top: -925px;
+  }
+  .anchor3 {
+    display: block;
+    height: 100px;
+    margin-top: -100px;
   }
 }
 
@@ -412,7 +441,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: #252b42;
   margin: 10px;
-  margin-bottom: 50px;
+  padding: 5%;
 }
 #accord {
   background-color: #252b42;
@@ -429,4 +458,3 @@ footer {
   color: white;
   padding-top: 5%;
 }
-
