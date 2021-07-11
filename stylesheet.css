@@ -144,6 +144,11 @@ body {
   height: 515px;
   margin-top: -515px;
 }
+.anchor1 {
+  display: block;
+  height: 115px;
+  margin-top: -115px;
+}
 
 .card-contain {
   color: #252b42;
@@ -204,18 +209,30 @@ body {
   }
   .anchor1 {
     display: block;
-    height: 115px;
-    margin-top: -115px;
+    height: 225px;
+    margin-top: -225px;
   }
   .anchor2 {
     display: block;
-    height: 925px;
-    margin-top: -925px;
+    height: 325px;
+    margin-top: -325px;
   }
   .anchor3 {
     display: block;
     height: 100px;
     margin-top: -100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .anchor1 {
+    display: block;
+    height: 425px;
+    margin-top: -425px;
+  }
+  .anchor2 {
+    display: block;
+    height: 605px;
+    margin-top: -605px;
   }
 }
 
@@ -364,6 +381,18 @@ footer {
   .footer-dark .item:not(.social) {
     text-align: center;
     padding-bottom: 20px;
+  }
+  footer {
+    background-color: #252b42;
+    color: white;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -20px;
+  }
+  #socials {
+    padding-top: -20px;
   }
 }
 
