@@ -488,3 +488,48 @@ footer {
   color: white;
   padding-top: 5%;
 }
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  display: inline-block;
+  margin: 0;
+}
+
+
+.button {
+  cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: 22px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+
+  border-radius: 50px;
+  animation: gradient 3s infinite 1s cubic-bezier(0.2, 0.8, 0.2, 1.2) forwards;
+  
+  margin: auto;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+  font-size: 26px;
+}
+
+@keyframes gradient {
+  0%  { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
+  10% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
+  20% { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
+  30% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
+  40% { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
+  50% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
+  60% { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
+  70% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
+  80% { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
+  90% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
+  100%{ background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
+}
