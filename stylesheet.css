@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap");
-
 /* Start of Navbar*/
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -15,6 +15,7 @@
   padding-bottom: 10px;
   flex-direction: row;
 }
+
 #countdown {
   float: right;
   margin: 20px;
@@ -65,6 +66,7 @@
   font-size: 26px;
   margin-left: 5px;
 }
+
 .navbar-brand:hover {
   color: white;
 }
@@ -77,6 +79,7 @@
     font-size: 18px;
   }
 }
+
 /*End of Navbar*/
 
 /*Main container - IMPORTANT */
@@ -87,6 +90,7 @@
 }
 
 /*Mobile Design */
+
 @media screen and (mac-width: 600px) {
   #main {
     width: 400px;
@@ -95,7 +99,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(270deg, #63c8de -1.04%, #101a43 100%);
+  background: linear-gradient(270deg, #23a0bc -1.04%, #0f2559 100%);
 }
 
 /*Start of Home */
@@ -104,6 +108,7 @@ body {
   padding-top: 10%;
   text-align: left;
 }
+
 .ht-main {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -113,12 +118,15 @@ body {
   letter-spacing: 0.2px;
   color: white;
 }
+
 #home-image {
   margin-top: -80px;
 }
 
 .ht-sub {
   color: white;
+  font-family: "Montserrat";
+  font-weight: 500;
   margin-top: 10px;
 }
 
@@ -137,11 +145,13 @@ body {
   color: white;
   border: 1px #3a858c;
 }
+
 .anchor {
   display: block;
   height: 515px;
   margin-top: -515px;
 }
+
 .anchor1 {
   display: block;
   height: 115px;
@@ -152,6 +162,7 @@ body {
   color: #252b42;
   text-align: center;
 }
+
 .card-body {
   font-family: "Montserrat", sans-serif;
   color: #252b42;
@@ -165,6 +176,7 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
 #media {
   padding-top: 7%;
   margin-top: -50px;
@@ -178,7 +190,6 @@ body {
     text-align: center;
     margin-top: 90px;
   }
-
   .ht-main {
     font-size: 40px;
     line-height: 60px;
@@ -189,7 +200,6 @@ body {
   #countdown {
     display: none;
   }
-
   h5 span {
     background-color: white;
     color: #252b42;
@@ -221,6 +231,7 @@ body {
     margin-top: -100px;
   }
 }
+
 @media screen and (max-width: 400px) {
   .anchor1 {
     display: block;
@@ -242,25 +253,12 @@ body {
   color: #252b42;
   text-align: center;
 }
+
 .card-body {
   font-family: "Montserrat", sans-serif;
   color: #252b42;
 }
 
-.media-head {
-  font-weight: 600;
-  font-family: Montserrat;
-  text-align: center;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-#media {
-  padding-top: 7%;
-  margin: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
-}
 /*End of Media */
 
 /*Start of About */
@@ -268,21 +266,31 @@ body {
 .box {
   max-width: 1300px;
   position: relative;
-  /*margin: 100px;
-  margin-top: 120px;
-  margin-bottom: 0px; */
-
-  background: rgb(164, 232, 255);
+  background: rgb(164, 232, 255, 0.141);
   padding: 30px;
   box-shadow: 0px 10px 30px;
-  display: block;
-  background: rgba(192, 249, 255, 0.141);
+  display: box;
+}
+
+.about-head {
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-family: Montserrat;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .about-body {
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: Montserrat;
   color: white;
 }
+
 #about {
   padding-top: 5%;
 }
@@ -302,11 +310,13 @@ iframe {
 /*End of About */
 
 /*General*/
+
 h2 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .overlay {
   height: 100%;
   width: 0;
@@ -338,8 +348,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
 }
 
-.overlay a:hover,
-.overlay a:focus {
+.overlay a:hover, .overlay a:focus {
   color: rgb(164, 232, 255);
 }
 
@@ -364,17 +373,19 @@ h2 {
 /*End of General */
 
 /*Start of Footer */
+
 footer {
   background-color: #001931;
   color: white;
-
   left: 0;
   bottom: 0;
   width: 100%;
 }
+
 #socials {
   padding-top: 5%;
 }
+
 @media (max-width: 767px) {
   .footer-dark .item:not(.social) {
     text-align: center;
@@ -402,48 +413,67 @@ footer {
   text-align: center;
   width: 200px;
   height: 50px;
-
   border-radius: 50px;
   animation: gradient 3s infinite 1s cubic-bezier(0.2, 0.8, 0.2, 1.2) forwards;
-  
   margin: auto;
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   font-size: 22px;
 }
 
 @keyframes gradient {
-  0%  { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
-  10% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
-  20% { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
-  30% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
-  40% { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
-  50% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
-  60% { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
-  70% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
-  80% { background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
-  90% { background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%) }
-  100%{ background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%) }
+  0% {
+    background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%)
+  }
+  10% {
+    background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%)
+  }
+  20% {
+    background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%)
+  }
+  30% {
+    background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%)
+  }
+  40% {
+    background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%)
+  }
+  50% {
+    background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%)
+  }
+  60% {
+    background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%)
+  }
+  70% {
+    background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%)
+  }
+  80% {
+    background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%)
+  }
+  90% {
+    background: linear-gradient(90deg, #003ecf 0%, #1f5482 100%)
+  }
+  100% {
+    background: linear-gradient(90deg, #2aa3c1 0%, #00206a 100%)
+  }
 }
 
-
-a,
-a:hover,
-a:focus,
-a:active {
+a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
 }
+
 a {
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
+
 .ct-u-paddingTop10 {
   padding-top: 10px !important;
 }
+
 .ct-footer {
   background-color: #111;
   padding-top: 10px;
@@ -453,13 +483,13 @@ a {
 
 .ct-footer-list {
   list-style: none;
-  padding-bottom: 50px;
-  display: table;
+  padding-bottom: 50px 0;
   width: 100%;
   border-bottom: 1px solid #555;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.ct-footer-list > li .ct-footer-list-header {
+
+.ct-footer-list>li .ct-footer-list-header {
   padding-top: 50px;
   font-family: Montserrat;
   font-style: normal;
@@ -467,12 +497,14 @@ a {
   color: #dbf7ff;
   font-size: 25px;
 }
-.ct-footer-list > li ul {
+
+.ct-footer-list>li ul {
   list-style: none;
   text-align: center;
   padding-left: 0;
 }
-.ct-footer-list > li ul li a {
+
+.ct-footer-list>li ul li a {
   color: rgb(122, 215, 255);
   font-family: Montserrat;
   font-style: normal;
@@ -482,19 +514,59 @@ a {
   text-decoration: none;
 }
 
+@media (max-width:479px) {
+  .ct-footer-list {
+      padding: 20px 0
+  }
+}
+@media (min-width:600px) {
+  .ct-footer-list > li {
+      width: 20%;
+      display: table-cell;
+      vertical-align: top;
+      text-align: center;
+  }
+  .ct-footer-list > li:last-child {
+      width: 7%
+  }
+}
+@media (min-width:768px) and (max-width:1199px) {
+  .ct-footer-list > li {
+      width: 33.3333%
+  }
+}
+@media (min-width:480px) and (max-width:767px) {
+  .ct-footer-list > li {
+      width: 50%
+  }
+}
+@media (max-width:479px) {
+  .ct-footer-list > li {
+      width: 100%;
+      text-align: center
+  }
+}
+@media (max-width:1199px) {
+  .ct-footer-list > li {
+      display: inline-block;
+  }
+}
+
 /*End of Footer*/
 
 /*faq*/
+
 #faq {
   font-family: "Montserrat", sans-serif;
   color: #252b42;
   margin: 10px;
-  padding: 3%;
+  padding: 5%;
   margin-top: -30px;
 }
+
 #accord {
-  background-color: #001931;
-  color: #fff;
+  background-color: rgba(0, 8, 67, 0.387);
+  color: rgb(255, 255, 255);
 }
 
 .FAQ-subheading {
@@ -513,13 +585,12 @@ a {
 }
 
 h3 {
-  display: inline-block;
   font-family: Montserrat;
-  font-style: normal;
   line-height: 22px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   font-size: 22px;
   margin: 0;
 }
-
-
