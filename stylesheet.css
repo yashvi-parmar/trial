@@ -460,14 +460,27 @@ footer {
   }
 }
 
-.container-p-4{
+.container-p-4 {
   background-color: #001932;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
-.text-white{
+.text-uppercase {
+  padding-top: 22px;
+  color: rgb(114, 144, 255);
+}
+
+.sign-up-header{
+  color: rgb(255, 255, 255);
+}
+
+.links{
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   font-size: 14px;
+  color: rgb(142, 236, 255);
 }
 
 .list-unstyled {
