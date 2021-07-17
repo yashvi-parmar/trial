@@ -84,11 +84,23 @@
       <!--End of Home-->
 
       <!--Start of About-->
-      <span class="anchor1" id="section2"></span>
+      
       <div class="d-flex justify-content-center">
         <section id="about">
+
+          <!-- Video -->
+          <div class="container mt-5 mb-5">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="520" height="315" src="https://www.youtube.com/embed/U3w0NjYbEIo" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!-- End of Video -->
+          <span class="anchor1" id="section2"></span>
           <div class="box">
-            <h1 class="about-head">ABOUT THE I4 CHALLENGE</h1>
+            <h1 class="media-head">ABOUT</h1>
             <div class="about-body">The i4 Challenge is a high school level data-driven competition run by students at
               the University of Waterloo. The name comes from what is known as the fourth industrial revolution,
               involving the computerization of manufacturing and increase
@@ -108,22 +120,12 @@
             </div>
           </div>
           <!--End of About the I4 Challenge-->
-
-          <!-- Video -->
-          <div class="container mt-5 mb-5">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="520" height="315" src="https://www.youtube.com/embed/U3w0NjYbEIo" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-
-          <!-- End of Video -->
         </section>
       </div>
       <!--End of About-->
       <span class="anchor2" id="section3"></span>
       <section id="media">
+        <div class="box"> 
 
         <div class="media-contain">
           <h1 class="media-head">MEDIA</h1>
@@ -167,6 +169,7 @@
             </div>
           </div>
         </div>
+        </div>
       </section>
 
 
@@ -175,16 +178,17 @@
       <!--Start of FAQ -->
       <span class="anchor3" id="sectio4"></span>
       <section id="faq">
-
+        <div class="box"> 
         <div class="container flex-column-reverse">
 
           <div class="text-center">
             <p class="FAQ-subheading">FAQ</p>
           </div>
+          <div >
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div id="accord" class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button id="faq-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   Where is the competition hosted?
                 </button>
@@ -197,7 +201,7 @@
             </div>
             <div id="accord" class="accordion-item">
               <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button id="faq-button"  class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                   How many people can be on a team?
                 </button>
@@ -209,7 +213,7 @@
             </div>
             <div id="accord" class="accordion-item">
               <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button id="faq-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                   Can a school have more than one team?
                 </button>
@@ -223,7 +227,7 @@
 
             <div id="accord" class="accordion-item">
               <h2 class="accordion-header" id="flush-headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button id="faq-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                   What skills will I gain from this competition?
                 </button>
@@ -239,8 +243,9 @@
 
 
             <div id="accord" class="accordion-item">
+              
               <h2 class="accordion-header" id="flush-headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button id="faq-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                   Is there a registration fee?
                 </button>
@@ -249,7 +254,10 @@
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body"> No, there are no participation fees!</div>
               </div>
+              
             </div>
+          </div>
+        </div>
           </div>
         </div>
       </section>
@@ -271,7 +279,7 @@
             <!--Grid row-->
             <div class="row">
               <!--Grid column-->
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <!--<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <h3>Sign up for the 2022 i4 Competition!</h3>
               <div class="wrapper">
                 <a target=”_blank” href="https://www.producthunt.com/posts/gradient-buttons-for-react-native"
@@ -279,80 +287,65 @@
                   <div class="button" id="button">CLICK HERE</div>
                 </a>
               </div>
-              </div>
+              </div> -->
+             
               <!--Grid column-->
+              <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+              <h3>Follow Us!</h3>
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-instagram"></i></a>
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fas fa-at"></i></a>
+            
+            </div>
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Learn More</h5>
         
-          
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">Get involved</h5>
-        
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="#!" class="links">Meet the Team</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="links">Join us</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
+              <ul class="list-unstyled">
 
-               <!--Grid column-->
-               <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Learn More</h5>
-        
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="links">About the competition</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="links">Medium and Blogs</a>
-                  </li>
-                </ul>
-              </div>
+                <li>
+                  <a href="#!" class="links">Join Our 2023 Competition Team</a>
+                </li>
+                <li>
+                  <a href="#!" class="links">Meet our 2022 Competition Team</a>
+                </li>
+              </ul>
+
+            
+            </div>
+
+            
+            
+            
+            
+             
+            
+             
               <!--Grid column-->
         
             </div>
             <!--Grid row-->
+            
           </div>
           <!-- Grid container -->
+             <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #2b2b2c;">
+          Copyright:
+          <a class="links" href="#">Industry 4.0 © 2022 
+          
+              <img src="logo.png" height="27">
+            
+           
+          </a>
+        </div>
+        <!-- Copyright -->
         </footer>
         
 
       <!-- Footer -->
-      <footer class="bg-dark text-center links">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                class="fab fa-facebook-f"></i></a>
-
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                class="fab fa-instagram"></i></a>
-
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                class="fab fa-linkedin-in"></i></a>
-
-          </section>
-          <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          Copyright:
-          <a class="links" href="#">Industry 4.0 © 2022</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+      
       <!--End of Footer-->
 
 </body>
