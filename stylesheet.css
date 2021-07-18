@@ -249,22 +249,23 @@ body {
 
 /*Start of Media */
 
-.card-contain {
-  color: #252b42;
-  text-align: center;
-}
-
-.card-body {
-  font-family: "Montserrat", sans-serif;
-  color: #252b42;
-}
-
 /*End of Media */
 
 /*Start of About */
 
 .box {
-  max-width: 1300px;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  background: rgb(164, 232, 255, 0.141);
+  padding: 30px;
+  box-shadow: 0px 10px 30px;
+  display: box;
+}
+
+.about-box{
+  width: 90%;
+  margin: auto;
   position: relative;
   background: rgb(164, 232, 255, 0.141);
   padding: 30px;
@@ -274,11 +275,11 @@ body {
 
 .about-head {
   padding-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Montserrat;
   text-decoration: none;
   text-align: center;
-  color: rgb(13, 0, 0);
+  color: rgb(255, 255, 255);
   margin-bottom: 10px;
 }
 
@@ -289,8 +290,9 @@ body {
   word-spacing: 3px; */
   line-height: 1.8;
   font-weight: 500;
+  font-weight: 500;
   font-family: Montserrat;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 #about {
@@ -298,15 +300,14 @@ body {
 }
 
 .about-container {
-  margin: 40px;
-  box-sizing: border-box;
+  margin: 10px;
   resize: horizontal;
   padding: 30px;
 
-  background: rgb(164, 232, 255, 0.541);
+  background: rgba(0, 29, 71, 0.3);
   overflow: auto;
-  max-width: 100%;
-  height: calc(50vh - 10px);
+  max-width: 1200%;
+  height: calc(60vh - 10px);
   -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   overflow-y: scroll;
@@ -324,6 +325,7 @@ iframe {
   position: absolute;
   left: -400px;
 }
+
 
 /*End of About */
 
