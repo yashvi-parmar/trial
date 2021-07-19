@@ -266,6 +266,7 @@ body {
 .about-box{
   width: 90%;
   margin: auto;
+  margin-bottom: 0px;
   position: relative;
   background: rgb(164, 232, 255, 0.141);
   padding: 30px;
@@ -321,7 +322,7 @@ iframe {
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
   -o-transform: scale(0.75);
-  transform: scale(0.75);
+  transform: scale(0.85);
   position: absolute;
   left: -400px;
 }
