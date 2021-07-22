@@ -189,6 +189,7 @@ body {
 @media screen and (max-width: 760px) {
   #home {
     padding: 5%;
+
     text-align: center;
     margin-top: 90px;
   }
@@ -292,7 +293,8 @@ body {
   margin: 10px;
   resize: horizontal;
   padding: 30px;
-  margin-top: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   background: rgb(164, 232, 255, 0.541);
   overflow: auto;
   max-width: 1200%;
@@ -300,6 +302,9 @@ body {
   -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   overflow-y: scroll;
+}
+.about-box {
+  margin-top: 9rem;
 }
 
 iframe {
@@ -310,10 +315,9 @@ iframe {
   -moz-transform: scale(0.75);
   -o-transform: scale(0.75);
   transform: scale(0.85);
-  position: absolute;
+  /*position: absolute;*/
   left: -400px;
 }
-
 
 /*End of About */
 
@@ -507,9 +511,9 @@ footer {
 #faq {
   font-family: "Montserrat", sans-serif;
   color: #252b42;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 
-  padding-top: 7%;
-  margin-top: -50px;
   margin-right: 50px;
   margin-left: 50px;
 }
