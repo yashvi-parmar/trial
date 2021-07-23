@@ -275,7 +275,7 @@ body {
 }
 
 .about-body {
-  font-size: 16px;
+  font-size: 18px;
   /* letter-spacing: 1px;
   word-spacing: 3px; */
   line-height: 1.8;
@@ -290,26 +290,23 @@ body {
 }
 
 .about-container {
-  margin: 10px;
-  resize: horizontal;
+  margin: auto;
   padding: 30px;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  background: rgb(164, 232, 255, 0.541);
-  overflow: auto;
-  max-width: 1200%;
+  background: rgb(164, 232, 255, 0.141);
+  max-width: 85%;
   height: calc(60vh - 10px);
   -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   overflow-y: scroll;
 }
-.about-box {
-  margin-top: 9rem;
-}
+
 
 iframe {
   width: 1108px;
   height: 710px;
+  padding-top: 50px;
   /* apply the transform */
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
@@ -589,6 +586,7 @@ h3 {
 @media (max-width: 760px) {
   .box {
     padding: 20px;
+    margin-top: 40px;
   }
   #faq {
     margin-top: -1rem;
