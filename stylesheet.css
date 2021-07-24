@@ -181,7 +181,8 @@ body {
 }
 
 #media {
-  padding-top: 7%;
+  padding-top: 6rem;
+  padding-top: 6rem;
   margin-top: -50px;
   margin-right: 0px;
   margin-left: 0px;
@@ -532,7 +533,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: #252b42;
   margin-top: 6rem;
-  margin-bottom: 7rem;
+  margin-bottom: 6rem;
   margin-right: 0px;
   margin-left: 0px;
 }
@@ -580,7 +581,7 @@ h3 {
   .box {
     padding: 20px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     background: rgba(92, 101, 104, 0.141);
     width: 90%;
     max-width: 1200px;
