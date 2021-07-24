@@ -290,7 +290,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 3rem;
   background: rgba(0, 31, 59, 0.431);
-  max-width: 65%;
+  max-width: 98%;
   height: calc(60vh - 10px);
   -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
@@ -533,7 +533,6 @@ footer {
   color: #252b42;
   margin-top: 6rem;
   margin-bottom: 7rem;
-
   margin-right: 0px;
   margin-left: 0px;
 }
@@ -542,6 +541,7 @@ footer {
   background-color: #252b42;
   color: white;
 }
+
 #faq-button {
   background-color: #ffffff;
   font-weight: 500;
