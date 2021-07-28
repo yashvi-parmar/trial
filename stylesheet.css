@@ -392,6 +392,9 @@ footer {
 #socials {
   padding-top: 3%;
 }
+.logo {
+  margin-top: -12px;
+}
 
 @media (max-width: 760px) {
   .footer-dark .item:not(.social) {
