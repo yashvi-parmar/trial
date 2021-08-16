@@ -105,8 +105,11 @@ body {
 /*Start of Home */
 
 #home {
-  padding-top: 10%;
-  text-align: left;
+  margin: auto;
+  margin-top: 150px;
+  width: 90%;
+  max-width: 1200px;
+  margin-bottom: 170px;
 }
 
 .ht-main {
