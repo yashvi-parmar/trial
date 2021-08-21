@@ -93,6 +93,11 @@
 
 @media screen and (max-width: 600px) {
   #main {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 410px) {
+  #main {
     width: 400px;
   }
 }
@@ -105,8 +110,12 @@ body {
 /*Start of Home */
 
 #home {
-  padding-top: 10%;
-  text-align: left;
+  margin: auto;
+  margin-top: 150px;
+
+  width: 90%;
+  max-width: 1200px;
+  margin-bottom: 170px;
 }
 
 .ht-main {
@@ -191,7 +200,7 @@ body {
 @media screen and (max-width: 760px) {
   #home {
     padding: 5%;
-
+    width: 100%;
     text-align: center;
     margin-top: 90px;
   }
